@@ -79,7 +79,7 @@ else
   puts "FAILED!".colorize(:red)
 end
 
-puts "    Test 2:"
+print "    Test 2:"
 if recursion_function(5) == [1, 4, 25, 226, 2713]
   puts "PASSED".colorize(:green)
   passed += 1

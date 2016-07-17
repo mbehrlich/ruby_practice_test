@@ -33,10 +33,11 @@ end
 
 # Define a my_each function for the Hash class. Do not use Hash#each OR
 # Array#each to accomplish this. Do not use each_with_index or a for loop either.
+# You CAN use my_each.
 
 class Hash
 
-  def my_each
+  def my_each(&prc)
   end
 
 end
